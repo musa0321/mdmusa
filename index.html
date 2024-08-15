@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 bootstrap button</title>
+    <link href="/css/style.css" rel="stylesheet" >
+    <link href="/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+    <h2>Navbar</h2>
+    <nav class="navbar  sticky-top navbar-expand-sm navbar-light bg-info ">
+        <div class="container-fluid ">
+            
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#musa">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            
+    
+            <div class="collapse navbar-collapse" id="musa">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">contract</a></li>
+                </ul>
+                 <div class="container">
+                <form class="d-flex ">
+                    <input class="form-control me-2  " type="text" placeholder="search">
+                    <button class="btn btn-primary w-5 " type="button">search</button>
+                </form>
+            </div>
+            </div>
+          </div>
+         </nav>
+<br><br>
+         <h2>Button</h2>
+    <div class="container_fluid text-center">
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-outline-primary w-50  ">submit 1</button>
+                <br> <br>
+                <button class="btn btn-success btn-lg w-70">submit2</button>
+                <br> <br>
+                <button class="btn btn-dark btn-sm">submit3</button>
+                <br> <br>
+                <button class="btn btn-warning ">submit4</button>
+                <br> <br>
+                <button class="btn btn-outline-danger">submit5</button>
+                <br> <br>
+                <button class="btn btn-dark">submit6</button
+                    ><br> <br>
+                <button class="btn btn-outline-secondary">submit7</button>
+                <br> <br>
+                <button class="btn btn-light">submit8</button>
+                <br> <br>
+
+                <button class="btn btn-primary btn-group-lg">submit10</button>
+                <br> <br>
+                <button class="btn btn-primary" disabled>
+                    <span class="spinner-border spinner-border-sm"> </span>
+
+                  </button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <br><br>
+
+     <h2>Card</h2>
+    <div class="container_fluid p-5 ">
+        <div class="row">
+            <div class="col-6">
+                 <img src="/card.svg" class="card-img-top" alt="#">
+                <div class="card w-60">
+                    <div class="card-body">
+                        <h5 class="card-title">First Card</h5>
+                        <p class="card-text">my frist card design.my frist card design my frist card design my frist card design my frist card design my frist card design</p>
+                        <a href="#" class="btn btn-primary btn-sm"> Go somewhere</a>
+                    </div>
+                </div>
+ 
+            </div>
+
+        </div>
+    </div>
+
+    <br><br>
+
+    <h2>Form</h2>
+    <div class="container mt-3 mb-3">
+        <form >
+            
+            <label for="email" class="form-label"> Email</label>
+            <input type="email" class="form-control" id="email" placeholder="enter email" name="email">
+    
+            <label for="password" class="form-label mt-3"> password</label>
+            <input type="password" class="form-control" id="password" placeholder="enter password" name="password">
+    
+            <div class="form-check mb-3">
+                <label class="form-check-label" >Remember me</label>
+                <input type="checkbox" class="form-check-input" name="remember">
+    
+    
+    
+            </div>
+            <button class="btn btn-primary" type="button">Submit</button>
+    
+        </form>
+    </div>
+
+
+  <br><br>
+  <h2>List</h2>
+    <div class="container m-2">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary ">frist item</li>
+            <li class="list-group-item list-group-item-danger">Second item</li>
+            <li class="list-group-item   disabled ">Third item</li>
+            <li class="list-group-item active">fourth item</li>
+          </ul>
+        </div>
+
+        <div class="container mt-3">
+            <h5>Pagination</h5>
+            <p>Large:</p>
+            <ul class="pagination pagination-lg">
+                <li class="page-item"> <a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"> <a class="page-link" href="#">1</a></li>
+                <li class="page-item"> <a class="page-link" href="#">2</a></li>
+                <li class="page-item"> <a class="page-link" href="#">3</a></li>
+                <li class="page-item"> <a class="page-link" href="#">Next</a></li>
+            </ul>
+            <br><br><br>
+            <p>Default:</p>
+            <ul class="pagination justify-content-center  ">
+                <li class="page-item"> <a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"> <a class="page-link" href="#">1</a></li>
+                <li class="page-item"> <a class="page-link" href="#">2</a></li>
+                <li class="page-item"> <a class="page-link" href="#">3</a></li>
+                <li class="page-item"> <a class="page-link" href="#">Next</a></li>
+            </ul>
+            <br><br><br>
+            <p>Small:</p>
+            <ul class="pagination justify-content-end pagination-sm">
+                <li class="page-item"> <a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"> <a class="page-link" href="#">1</a></li>
+                <li class="page-item"> <a class="page-link" href="#">2</a></li>
+                <li class="page-item"> <a class="page-link" href="#">3</a></li>
+                <li class="page-item"> <a class="page-link" href="#">Next</a></li>
+            </ul>
+        
+        </div>
+
+ <br><br>
+
+    <h2>Progress Bar </h2>
+
+<div class="progress">
+    <div class="progress-bar bg-danger" style="width: 30%;">30%</div>
+</div>
+<br><br>
+
+
+<div class="progress">
+    <div class="progress-bar bg-warning" style="width:50%"></div>
+</div>
+<br><br>
+
+<h2>Striped Progress Bars</h2>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-striped" style="width:70%"></div>
+</div>
+
+
+<br><br>
+
+
+<h2>table:</h2>
+<div class="container mt-3">
+    <table class="table ">
+        <thead>
+        <tr class="table-dark">
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="table-info">
+            <td>Mashud</td>
+            <td>Rana</td>
+            <td>mashud@example.com</td>
+        </tr>
+        <tr class="table-danger">
+            <td>Riyad</td>
+            <td>Miya</td>
+            <td>riyad@example.com</td>
+        </tr>
+        <tr class="table-success">
+            <td>Mamun</td>
+            <td>Miya</td>
+            <td>Mamun@example.com</td>
+        </tr>
+        </tbody>
+    </table>
+</div> 
+
+<br><br>
+
+<div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="#">item-1</a></li>
+            <li><a class="dropdown-item" href="#">item-2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Another link</a></li>
+        </ul>
+    </div>
+</div>
+
+   
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
